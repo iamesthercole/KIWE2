@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 
+/*------------------------------------Text Styles*/
+
+.main-heading {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fafafa;
+}
+
+/*------------------------------------Colours*/
+
+.kiwe-logo {
+    color: #fafafa !important;
+    font-weight: bolder !important;
+    font-size: 3em;
+}
+
+.black-background {
+    background-color: #000000;
+}
+
 /*------------------------------------Images and Media*/
 
 .album-cover {
@@ -7,4 +27,21 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
+}
+
+.hero {
+    width: 100%;
+}
+
+/*-------------------------------------Container Styles*/
+
+.top-right {
+    width: 35%;
+   position:absolute;
+   top:0;
+   right:0;
+   margin-top: 40px;
+   margin-right: 40px;
+   opacity: 1;
+   text-align: center;
 }
