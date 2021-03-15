@@ -39,6 +39,11 @@ body {
     overflow: hidden;
 }
 
+.img-thumbnail {
+    background-color: #000000;
+    border: #000000;
+}
+
 /*-------------------------------------Container Styles*/
 
 .center {
