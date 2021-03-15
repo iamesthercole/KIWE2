@@ -11,48 +11,45 @@
 <body>
 <!--NAVIGATION BAR-->
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid-12">
             <div class="row">
-                <div class="col-sm-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-md">
+                    <nav class="navbar fixed-top navbar-expand-lg navbar black-background">
                         <div class="container-fluid">
-                            <a class="navbar-brand" id="home" href="index.html">KIWE</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="home.html" for="home">Home</a>
-                                </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.html" for="music">Music</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.html" for="video">Video</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.html" for="momas">MOMAS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.html" for="follow">Follow</a>
-                            </li>
-                            </ul>
+                            <a class="navbar-brand kiwe-logo" href="index.html">KIWE</a>
+                            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#music">Music</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#video">Video</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#momas">MOMAS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#follow">Follow</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
     </header>
 <!--Hero IMAGE AND QUOTATION-->
     <section>
-        <div class="container-fluid" id="music">
+        <div class="container-fluid-12" id="music">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="images/hero.jpg" class="img-fluid" alt="Hero Image">
+                    <img src="images/hero.jpg" class="img-fluid hero" alt="Hero Image">
                         <div class= "top-right">
-                            <p>I'm an artist that believes in championing others. I cook so I can feed, I learn so I can teach, I gain strength so that I can support the week. I believe in you. <br> - Esther Cole</p>
+                            <p class="text-light font-weight-bold font-italic">I'm an artist that believes in championing others. I cook so I can feed, I learn so I can teach, I gain strength so that I can support the week. I believe in you. <br> <br> Esther Cole</p>
                         </div>
                 </div>
             </div>
@@ -202,63 +199,72 @@
             </div>
         </div>
     </section>
-<!--FOLLOW SECTION-->
+<!--SUBSCRIBE NOW-->
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg">
-                   <div class="form-floating mb-3">
-                       <h5>Join the KIWE club for everything exclusive from Esther Cole</h5>
-                        <input type="text" class="form-control" id="floatingName" placeholder="FULL NAME">
-                        <label for="floatingName"></label>
+        <div class="container-fluid-12 black-background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                    <div class="form-floating pt-3 mb-3">
+                        <h5 class="text-light pb-3 center">Join the KIWE club for everything exclusive from Esther Cole!</h5>
+                            <input type="text" class="form-control" id="floatingName" placeholder="FULL NAME">
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="EMAIL ADDRESS">
+                            <button type="submit" class="btn btn-primary bg-transparent border-0 text-uppercase font-weight-bold pr-0">Submit</button>
+                            <span><a class="btn terms text-light bolder font-weight-light" href="resources/t&c.pdf" target="_blank" role="button">TERMS</a></span>  
+                        </div>                
                     </div>
-                    <div class="form-floating">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="EMAIL ADDRESS">
-                        <label for="floatingInput"></label>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>                  
                 </div>
             </div>
         </div>
     </section>
-<!--FOOTER SECTION-->
+        <section>
+        <div class="container-fluid-12 footer-buffer">
+            <div class="container">
+                <div class="row">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+<!--FOOTER-->
     <footer>
-        <div class="container-fluid">
-            <div class="row" >
-                <div class="col-sm-2">
-                    <a href="home.html" for="#home" class="btn"><h5>Home</h5></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="home.html" for="#music" class="btn"><h5>Music</h5></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="home.html" for="#video" class="btn"><h5>Video</h5></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="home.html" for="#momas" class="btn"><h5>MOMAS</h5></a>
-                </div>
-            <div class="col-sm-2">
-                <a href="home.html" for="#follow" class="btn"><h5>Follow</h5></a>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target ="_blank" ref="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target ="_blank" ref="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target ="_blank" ref="#">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
-                            </a>
-                        </li>
-                    </ul>
+        <div class="container-fluid-12 black-background pt-3 mb-0 fixed-bottom">
+            <div class="container center mx-auto">
+                <div class="row" >
+                    <div class="col-md">
+                        <a href="#music" class="btn text-light"><h5>Music</h5></a>
+                    </div>
+                    <div class="col-md">
+                        <a href="#video" class="btn text-light"><h5>Video</h5></a>
+                    </div>
+                    <div class="col-md">
+                        <a href="#momas" class="btn text-light"><h5>MOMAS</h5></a>
+                    </div>
+                <div class="col-md">
+                    <a href="#follow" class="btn text-light"><h5>Follow</h5></a>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target ="_blank" href="https://twitter.com/iamesthercole">
+                                    <i class="fa fa-twitter text-light" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target ="_blank" href="tagram.com/kickingitwithes/">
+                                    <i class="fa fa-instagram text-light" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target ="_blank" href="https://www.youtube.com/channel/UCN9gmDimSqXqYEn6_nLRVBw">
+                                    <i class="fa fa-youtube text-light" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

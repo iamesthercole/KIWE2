@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 
+body {
+    background-color:#3d88cf;
+}
+
 /*------------------------------------Text Styles*/
 
 .esther-cole {
@@ -44,7 +48,7 @@
 .top-right {
     width: 35%;
    position:absolute;
-   top:0;
+   top:15%;
    right:0;
    margin-top: 40px;
    margin-right: 40px;
@@ -63,10 +67,22 @@
    text-align: center;
 }
 
+.footer-buffer {
+    background-color: #000000;
+    height:130px;
+    width: 100%;
+}
+
 /*-------------------------------------Buttons*/
 .media-button-black {
     background-color: #000000;
     border: #000000;
     text-align: center;
     margin: auto;
+}
+
+.terms {
+    font-size: 0.5em !important;
+    padding-left: 0px !important;
+    padding-top: 10px !important;
 }
