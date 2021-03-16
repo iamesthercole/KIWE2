@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 
-/*body {
+body {
     background-color:#3d88cf;
     margin: auto;
-}*/
+}
 
 /*------------------------------------Text Styles*/
 
@@ -11,6 +11,18 @@
     font-weight: bolder;
     text-transform: uppercase;
     color: #fafafa;
+}
+
+.more-videos {
+   font-size: 2em;
+   width: 100%;
+   position:absolute;
+   top:35%;
+   right: 0%;
+   margin-top: 40px;
+   margin-right: 40px;
+   opacity: 1;
+   text-align: center;
 }
 
 /*------------------------------------Colours*/
@@ -28,6 +40,10 @@
 
 .text-dark {
     color: #000000 !important;
+}
+
+.bg-dark {
+    background-color: #000000 !important;
 }
 /*------------------------------------Images and Media*/
 
@@ -48,6 +64,25 @@
     border: #000000;
 }
 
+iframe {
+  margin:0 auto;
+  display:block;
+  padding-bottom: 20px;
+  
+}
+
+.iframe-extra {
+  margin:0 auto;
+  display:block;
+  width: 700px;
+  height: 400px;
+  padding-bottom: 20px;
+}
+
+.kiwe-carousel {
+    height: 400px ;
+    width: 600px ;
+}
 /*-------------------------------------Container Styles*/
 
 .center {
