@@ -14,8 +14,8 @@
         <div class="container-fluid-12">
             <div class="row">
                 <div class="col-md">
-                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-                            <a class="navbar-brand kiwe-logo" href="index.html">KIWE</a>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                             <a class="navbar-brand" href="index.html"> <p class="kiwe-logo border-0 mb-0 pb-0">KIWE </p></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -31,7 +31,7 @@
                                         <a class="nav-link text-light" href="home.html#events">Events</a>
                                     </li>
                                     <li class="nav-item"> 
-                                        <a class="nav-link text-light" href="home.html#follow">Follow</a>
+                                        <a class="nav-link text-light" data-toggle="modal" data-target="#exampleModaltwo">Follow</a>
                                     </li>
                                 </ul>
                             </div>
@@ -77,10 +77,10 @@
                 <div class="row">
                     <div class="col-md-6 pt-5 mx-auto">
                         <div class="alert alert-primary mt-3 media-button-black" role="alert">
-                            <a href="home.html#isittrue" class="alert-link text-light">WATCH THE VIDEO</a>.
+                            <a href="home.html#isittrue" class="alert-link text-decoration-none text-light">WATCH THE VIDEO</a>.
                         </div>
                         <div class="alert alert-primary mb-5 pt-3 mt-3 media-button-black" role="alert">
-                                <a href="https://awal.lnk.to/isittrue" target="_blank" class="alert-link text-light">DOWNLOAD/STREAM THE SONG</a>.
+                                <a href="https://awal.lnk.to/isittrue" target="_blank" class="alert-link text-decoration-none text-light">DOWNLOAD/STREAM THE SONG</a>.
                         </div>                            
                     </div> 
                 </div>
@@ -125,6 +125,36 @@
                 </div>
             </div>
         </div>
+<!--MODEL-->
+    <section>
+            <div class="modal fade" id="exampleModaltwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header bg-dark">
+                        <h5 class="modal-title text-capitalize text-center text-light" id="exampleModalLabeltwo">Join the KIWE mailing list to get exclusive updates and latest content from Esther Cole</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                <div class="modal-body">
+                    <div class="container opacity pl-3 pt-3 pb-3 pr-4">
+                        <div class="row">
+                            <div class="col-sm">
+                                <form class="center-form mt-3">
+                                    <div class="form-group row">
+                                        <input type="email" id="subscription" class="form-control" placeholder="EMAIL ADDRESS">
+                                    </div>
+                                </form>                    
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary bg-transparent border-0 text-uppercase font-weight-bold pr-0" data-bs-dismiss="modal">Submit</button>
+                            <span><a class="btn terms text-light bolder font-weight-light" href="resources/t&c.pdf" target="_blank" role="button">TERMS</a></span>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        
     </section>
 <!--FOOTER-->
     <footer>
@@ -141,7 +171,7 @@
                         <a href="home.html#events" class="btn text-light"><h5>Events</h5></a>
                     </div>
                 <div class="col-md">
-                    <a href="index.html#follow" class="btn text-light"><h5>Follow</h5></a>
+                    <a class="nav-link text-light" data-toggle="modal" data-target="#exampleModaltwo">Follow</a>
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target ="_blank" href="https://twitter.com/iamesthercole">

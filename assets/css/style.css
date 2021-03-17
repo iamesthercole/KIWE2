@@ -141,3 +141,11 @@ iframe {
     padding-left: 0px !important;
     padding-top: 10px !important;
 }
+
+@media screen and (max-width: 1393px) {
+    # {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+    }
+}
