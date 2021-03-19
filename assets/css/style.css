@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
-
+html,body{
+    width: 100%;
+    height: 100%;
+}
 body {
     background-color:#3d88cf;
     margin: 0;
 }
+
 
 section {
     scroll-padding-top: 200px;
