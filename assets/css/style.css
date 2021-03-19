@@ -2,15 +2,30 @@
 html,body{
     width: 100%;
     height: 100%;
-}
-body {
-    background-color:#3d88cf;
-    margin: 0;
+    background: black;
 }
 
+.main-img {
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
+    url('https://raw.githubusercontent.com/iamesthercole/kiwe-website/master/images/hero.jpg');
+    background-size: cover;
+}
 
-section {
-    scroll-padding-top: 200px;
+.custom-jumbotron {
+    background: rgba(204, 204, 204, 0);
+    color: #fff;
+   position:absolute;
+   width: 50%;
+   top:0;
+   right:0;
+   margin-top: 40px;
+   margin-right: 40px;
+   text-align: right;
+}
+
+.full-h{
+    height: 100vh;
 }
 
 .modal-backdrop
@@ -45,9 +60,14 @@ section {
     font-size: 3em;
 }
 
-.black-background {
-    background-color: #000000;
-    border: #000000;
+.blue-background {
+    background-color: #3d88cf;
+    border: #3d88cf;
+}
+
+.white-background {
+    background-color: #fafafa;
+    border: #fafafa;
 }
 
 .text-dark {
@@ -68,7 +88,7 @@ section {
 
 .hero {
     min-width: 100%;
-    overflow: hidden;
+    overflow: auto ;
 }
 
 .img-thumbnail {
@@ -83,13 +103,7 @@ iframe {
   
 }
 
-.iframe-extra {
-  margin:0 auto;
-  display:block;
-  width: 700px;
-  height: 400px;
-  padding-bottom: 20px;
-}
+
 
 .kiwe-carousel {
     height: 400px ;
@@ -146,10 +160,18 @@ iframe {
     padding-top: 10px !important;
 }
 
-@media screen and (max-width: 1393px) {
-    # {
-        width: 100%;
-        height: 100px;
+@media screen and (max-width: 768px) {
+    .main-img,
+    .esther-cole {
+        min-width: 100%;
         margin: 0 auto;
+        font-size: 2em;
     }
-}
+@media screen and (max-width: 768px) {
+	.navbar-menu,
+	.navbar-dark,
+	.navbar-nav,
+	.nav-link {
+		font-size: .7em;
+		letter-spacing: 0px;
+	}
