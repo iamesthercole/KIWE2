@@ -203,6 +203,15 @@ I used HTML5 and CSS3 to build the basis of this website. In addition to these, 
 [Return to table of contents](#table-of-contents)
 
 # TESTING
+
+### GT Metrix Testing
+
+I tested KIWE website on a platform called [GTMetrix](https://gtmetrix.com/). The website scored an **A** and was given a **100% in performance**, **95% in structure.** Please see screenshots of the results below.
+
+![GT Metrix Testing](resources/images/gtmetrix-testing-one.jpg)
+![GT Metrix Testing](resources/images/gtmetrix-testing-two.jpg)
+
+### Personal Testing
 I tested the site many times using Dev tools to inspect what it looked like on different sized devices. Doing this regularly helped me to identify many errors and make many changes. Some of these changes are listed below:
 
 - Initially I had planned to have multiple sections that prompted the users to subscribe but after viewing this on desktop and on mobile sizes I realised it made the page look too busy and cluttered unnecessarily. I then decided to make the 'follow' tab open a modal with a form to subscribe nested inside and this worked. 
