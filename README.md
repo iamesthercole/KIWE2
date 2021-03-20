@@ -193,21 +193,17 @@ I used HTML5 and CSS3 to build the basis of this website. In addition to these, 
 # TESTING
 
 # DEPLOYMENT
-KIWE has been deployed to GitHub Pages as KIWE2
+KIWE has been deployed to GitHub Pages as KIWE2 and below is the process for deployment:
 
-The process for deployment is documented below:
+1. Log into [GitHub](https://github.com/) or here is a link to access the repository for this project directly: (https://github.com/iamesthercole/KIWE2)
 
-Log into GitHub
+2. Click on **Settings**
 
-Access the page with the repository for this project (https://github.com/iamesthercole/KIWE2)
+3. Scroll down to **GitHub Pages**
 
-Click on 'Settings' on the main menu over the file listing
+4. Change the source to **Branch: Master** from the options provided
 
-Navigate down to 'GitHub Pages'
-
-Select 'Branch: Master' from the menu
-
-This generates a live link for the website, which is now viewable publicly
+5. Press **save** and will create a link to access the site live a live 
 
 # CREDITS
 ### CONTENT
