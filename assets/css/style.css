@@ -167,12 +167,16 @@ iframe {
         margin: 0 auto;
         font-size: 2em;
     }
+}
+
 @media screen and (max-width: 768px) {
 .custom-jumbotron {
     width:70%;
     }
+}
 
     @media screen and (max-width: 768px) {
 .title {
     font-size: 4em;
     }
+}

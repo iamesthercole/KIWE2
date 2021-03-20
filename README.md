@@ -174,33 +174,50 @@ Overall, the website uses a very basic and simple design. I chose to stick with 
 # TECHNOLOGIES USED
 I used HTML5 and CSS3 to build the basis of this website. In addition to these, I used the below to help me build to a better standard.
 
-[Gitpod]() My code and workspace was created using Gitpod
+[GitHub](https://github.com/) I used this to host and deploy my project.
 
-[GitHub]() I used this to host and deploy my project
+[Gitpod](https://www.gitpod.io/) My code and workspace was created using Gitpod.
 
-[Bootstrap]() I sued Bootstrap to create grids, the navbar, the icons, the carousel, the model, the forms, for embedding and to style my website and make it responsive.
+[Bootstrap](https://getbootstrap.com/) I used Bootstrap to create grids, the navbar, the icons, the carousel, the model, the forms, for embedding and to style my website and make it responsive.
 
+**Chrome Developer Tools** - I used this to view my website on different devices and to fix any errors with my code and formatting. 
 
-Code Beautify CSS beautifier Used to make my CSS look nicer and tidier
+[CSS Validation Service](https://jigsaw.w3.org/css-validator/) I used this to validate my CSS code.
 
-Beautify Tools HTML beautifier Used to make my HTML tidier
+[W3C Markup Validation Service](https://validator.w3.org/) I used this to validate my HTML Code.
 
-W3C Markup Validation Service Used to check my HTML code
+[Beautify Tools for HTML](https://beautifytools.com/html-beautifier.php) I used this to tidy up my HTML.
 
-CSS Validation Service Used to check my CSS code
-
-I must also mention the Chrome Developer Tools, as I have used them extensively throughout the project. They have been very useful for each change that I made, and to double-check my ideas before implementing them.
+[Beautify Tools for CSS](https://beautifytools.com/css-beautifier.php) I used this to tidy up my CSS.
 
 # TESTING
 
 # DEPLOYMENT
+KIWE has been deployed to GitHub Pages as KIWE2
+
+The process for deployment is documented below:
+
+Log into GitHub
+
+Access the page with the repository for this project (https://github.com/iamesthercole/KIWE2)
+
+Click on 'Settings' on the main menu over the file listing
+
+Navigate down to 'GitHub Pages'
+
+Select 'Branch: Master' from the menu
+
+This generates a live link for the website, which is now viewable publicly
 
 # CREDITS
 ### CONTENT
-- The text for section Y was copied from the [Wikipedoa article z](https://en.wikipedia.org/wiki/Z)
+- The quote displayed on the hero image in the homepage is an original quote.
  
 ### MEDIA
-- The photos used in the site were obtained from
+- The media used for this website are from my own artist portfolio. 
 
 ### ACKNOWLEDGEMENTS
-* I receieved inspiration for this project from
+* I receieved inspiration for this project from hip hop artist [Cardi B's Website](https://www.cardibofficial.com/up?ref=Typed/Bookmarked). Her website is where the foundation of my ideas came from, such as a landing page and follow button.
+
+Other resources that I used to help me develop this project: Slack,
+Bootstrap, Git Hub, Stack Overload, Google, Student Support (Code Institute Tutors) and my Code Institute Mentor - Felipe who has been amazing supporting me with such a short timescale.
