@@ -141,7 +141,7 @@ iframe {
 }
 
 .top-center-home {
-    width: 35%;
+    width: 55%;
    position:absolute;
    top:15%;
    right: 0;
@@ -192,13 +192,26 @@ iframe {
     }
 }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
 .top-center-home {    
-    width: 80%;
+   width: 90%;
    padding-top: 0px;
+   padding-bottom: 10px;
    top:0%;
-   left: 10%;
-   font-size: 0.2em;
+   left: 5%;
+   font-size: 1.5em;
+   text-align: center;
+    }
+}
+
+    @media screen and (max-width: 700px) {
+.top-center-home {    
+   width: 90%;
+   padding-top: 0px;
+   padding-bottom: 10px;
+   top:0%;
+   left: 5%;
+   font-size: 0.8em;
    text-align: center;
     }
 }
