@@ -8,7 +8,7 @@ html,body{
 .main-img {
     background-image:
     linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
-    url('https://raw.githubusercontent.com/iamesthercole/kiwe-website/master/images/hero.jpg');
+    url('https://raw.githubusercontent.com/iamesthercole/kiwe-website/master/resources/images/hero.jpg');
     background-size: cover;
 }
 

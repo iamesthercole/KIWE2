@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>KIWE</title>
+</head>
+
+<body>
+	<!--NAVIGATION BAR-->
+	<header>
+		<div class="container-fluid-12">
+			<div class="row">
+				<div class="col-md">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+						<a class="navbar-brand" href="index.html">
+							<p class="kiwe-logo border-0 mb-0 pb-0">KIWE </p>
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+						<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item active"> <a class="nav-link text-light" href="home.html#music">Music<span class="sr-only">(current)</span></a> </li>
+								<li class="nav-item"> <a class="nav-link text-light" href="home.html#video">Video</a> </li>
+								<li class="nav-item"> <a class="nav-link text-light" href="home.html#events">Events</a> </li>
+								<li class="nav-item"> <a class="nav-link text-light" data-toggle="modal" data-target="#exampleModaltwo">Follow</a> </li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--HERO IMAGE-->
+	<section>
+		<div class="container-fluid-12">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="top-center">
+						<h1 class="display-1 esther-cole">esther cole</h1> </div> <img src="resources/images/hero.jpg" class="img-fluid hero" alt="Hero Image"> </div>
+			</div>
+		</div>
+	</section>
+	<!--ALBUM PROMOTION-->
+	<div class="container-fluid blue-background">
+		<div class="row">
+			<div class="col mx-auto">
+				<h3 class="display-1 text-dark center pt-5" style="text-transform: capitalize;">is it true?</h3>
+				<h5 class="display-5 text-dark center pb-4" style="text-transform: uppercase; font-weight: bolder;">available now!</h5> </div>
+		</div>
+		<div class="row">
+			<div class="col-md"> <img src="resources/images/album-cover.jpg" class="album-cover img-fluid mx-auto d-block" alt="Album Cover"> </div>
+		</div>
+		<!--DOWNLOAD AND STREAM BUTTONS-->
+		<div class="row">
+			<div class="col-md-6 pt-5 mx-auto">
+				<div class="alert alert-primary mt-3 media-button-black" role="alert"> <a href="home.html#isittrue" class="alert-link text-decoration-none text-light">WATCH THE VIDEO</a>. </div>
+				<div class="alert alert-primary mb-5 pt-3 mt-3 media-button-black" role="alert"> <a href="https://awal.lnk.to/isittrue" target="_blank" class="alert-link text-decoration-none text-light">DOWNLOAD/STREAM THE SONG</a>. </div>
+			</div>
+		</div>
+	</div>
+	<!--MODEL-->
+	<section>
+		<div class="modal fade" id="exampleModaltwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content bg-dark">
+					<div class="modal-header bg-dark">
+						<h5 class="modal-title text-capitalize text-center text-light" id="exampleModalLabeltwo">Join the KIWE mailing list to get exclusive updates and latest content from Esther Cole</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="container opacity pl-3 pt-3 pb-3 pr-4">
+							<div class="row">
+								<div class="col-sm">
+									<form class="center-form mt-3">
+										<div class="form-group row">
+											<input type="email" id="subscription" class="form-control" placeholder="EMAIL ADDRESS"> </div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-primary bg-transparent border-0 text-uppercase font-weight-bold pr-0" data-bs-dismiss="modal">Submit</button> <span><a class="btn terms text-light bolder font-weight-light" href="resources/t&c.pdf" target="_blank" role="button">TERMS</a></span> </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--FOOTER-->
+	<footer>
+		<!--SUBSCRIBE NOW-->
+		<div class="container-fluid black-background" id="follow">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="form-floating pt-3 mb-3">
+							<h5 class="text-light pb-3 center">Join the KIWE club for everything exclusive from Esther Cole!</h5>
+							<input type="text" class="form-control" id="floatingName" placeholder="FULL NAME"> </div>
+						<div class="form-floating">
+							<input type="email" class="form-control" id="floatingInput" placeholder="EMAIL ADDRESS">
+							<button type="submit" class="btn btn-primary bg-transparent border-0 text-uppercase font-weight-bold pr-0">Submit</button> <span><a class="btn terms text-light bolder font-weight-light" href="resources/t&c.pdf" target="_blank" role="button">TERMS</a></span> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid-12 black-background pt-3 mb-0 ">
+			<div class="container center mx-auto">
+				<div class="row">
+					<div class="col-md"> <a href="home.html#music" class="btn text-light"><h5>Music</h5></a> </div>
+					<div class="col-md"> <a href="home.html#video" class="btn text-light"><h5>Video</h5></a> </div>
+					<div class="col-md"> <a href="home.html#events" class="btn text-light"><h5>Events</h5></a> </div>
+					<div class="col-md"> <a class="nav-link text-light" data-toggle="modal" data-target="#exampleModaltwo">Follow</a>
+						<ul class="list-inline social-links">
+							<li class="list-inline-item">
+								<a target="_blank" href="https://twitter.com/iamesthercole"> <i class="fa fa-twitter text-light" aria-hidden="true"></i> <span class="sr-only">Twitter</span> </a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="https://www.instagram.com/kickingitwithes/"> <i class="fa fa-instagram text-light" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="https://www.youtube.com/channel/UCN9gmDimSqXqYEn6_nLRVBw"> <i class="fa fa-youtube text-light" aria-hidden="true"></i> <span class="sr-only">YouTube</span> </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>

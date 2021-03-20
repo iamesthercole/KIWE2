@@ -160,17 +160,36 @@ Overall, the website uses a very basic and simple design. I chose to stick with 
 # FEATURES
 
 ### EXISTING FEATURES
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- Feature 2
-Think about referencing files
+- The KIWE logo allows users to return back to the landing page if they desire to. 
+- Tab bar - allows users naviagate around the website using the menu tabs.
+- The subscribe form and follow tab allows user to subscribe to the mailing list to recieve updates first from Esther.
+- The link to stream and download music allows users to view the variety of platforms hosting Esther's music. This helps users to easily select the best platform for them and add songs to their playlists. 
+- embedded music videos from YouTube allows users to add songs to their 'Watch Later' playlist and share the video on other platforms. 
 
 ### FEATURES LEFT TO IMPLEMENT 
-- Another feature idea is
+- A form that gives people an opportunity to contact Esther directly with Enquiries and opportunities.
+-  A feature that allows the site to sell merchandise and add products to a basket.
+- A feature that Embeds live tweets and instagram posts share by Esther's personal account directly unto the website.
 
 # TECHNOLOGIES USED
-mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-* JQUERY
-    * The project uses JQuery to simplify DOM manipulation
+I used HTML5 and CSS3 to build the basis of this website. In addition to these, I used the below to help me build to a better standard.
+
+[Gitpod]() My code and workspace was created using Gitpod
+
+[GitHub]() I used this to host and deploy my project
+
+[Bootstrap]() I sued Bootstrap to create grids, the navbar, the icons, the carousel, the model, the forms, for embedding and to style my website and make it responsive.
+
+
+Code Beautify CSS beautifier Used to make my CSS look nicer and tidier
+
+Beautify Tools HTML beautifier Used to make my HTML tidier
+
+W3C Markup Validation Service Used to check my HTML code
+
+CSS Validation Service Used to check my CSS code
+
+I must also mention the Chrome Developer Tools, as I have used them extensively throughout the project. They have been very useful for each change that I made, and to double-check my ideas before implementing them.
 
 # TESTING
 
